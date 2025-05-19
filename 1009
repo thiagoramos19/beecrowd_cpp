@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+
+int main() {
+    char NAME[100];
+    double SAL, VEND, TOT;
+    
+    scanf("%s\n%lf\n%lf", NAME, &SAL, &VEND);
+    TOT = SAL + (0.15 * VEND);
+    
+    printf("TOTAL = R$ %.2lf\n", TOT);
+ 
+    return 0;
+}
