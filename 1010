@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+int main() {
+    int ID1, ID2, NUM1, NUM2;
+    double VAL1, VAL2, TOT1, TOT2, TOTAL;
+    
+    scanf("%d %d %lf\n%d %d %lf", &ID1, &NUM1, &VAL1, &ID2, &NUM2, &VAL2);
+    TOT1 = NUM1 * VAL1;
+    TOT2 = NUM2 * VAL2;
+    TOTAL = TOT1 + TOT2;
+    
+    printf("VALOR A PAGAR: R$ %.2lf\n", TOTAL);
+ 
+    return 0;
+}
