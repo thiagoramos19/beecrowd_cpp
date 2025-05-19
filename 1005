@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+    float A, B;
+    float MED = 0;
+    
+    scanf("%f\n%f", &A, &B);
+    MED = ((A * 3.5) + (B * 7.5))/11;
+    
+    printf("MEDIA = %.5f\n", MED);
+ 
+    return 0;
+}
