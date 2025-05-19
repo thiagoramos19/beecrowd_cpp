@@ -1,0 +1,13 @@
+#include <stdio.h>
+ 
+int main() {
+    int ID, HRS;
+    double VLH, SAL;
+    
+    scanf("%d\n%d\n%lf", &ID, &HRS, &VLH);
+    SAL = HRS * VLH;
+    
+    printf("NUMBER = %d\nSALARY = U$ %.2lf\n", ID, SAL);
+ 
+    return 0;
+}
