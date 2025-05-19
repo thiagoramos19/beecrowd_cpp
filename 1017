@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+    int HRS, Vm;
+    double Litros;
+    
+    scanf("%d\n%d", &HRS, &Vm);
+    
+    Litros = (HRS * Vm) / 12.0;
+    
+    printf("%.3lf\n", Litros);
+ 
+    return 0;
+}
